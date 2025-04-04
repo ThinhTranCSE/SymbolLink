@@ -63,5 +63,16 @@ namespace SymbolLink
 
             }
         }
+
+        private void AddNetworkDriveButton_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+        }
+
+        private void soureLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

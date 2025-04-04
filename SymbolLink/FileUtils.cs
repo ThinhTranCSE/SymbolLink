@@ -1,5 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
+namespace SymbolLink;
 public class FileUtils
 {
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Auto)]

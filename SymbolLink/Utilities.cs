@@ -298,6 +298,12 @@ public sealed class Utilities : IDisposable
             return false;
         }
     }
+
+
+    public bool ConnectNetworkDrive(string driveLetter, string remotePath, string username, string password)
+    {
+        return DriveUtilities.MapNetworkDrive(driveLetter, remotePath, username, password);
+    }
 }
 
 public class SymbolicLink
